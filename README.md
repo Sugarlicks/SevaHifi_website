@@ -2,6 +2,10 @@
 
 Static artist website and industry EPK for **Pacific Psychedelic Soul Vol. 1**. The existing blush, rust, mustard, cream and dark layout is preserved, including Baz, Gmuva and Levani in that order with their supplied photographs.
 
+## Repository source – 12 November 2026
+
+The complete build includes the HTML, CSS, JavaScript, licensed Mona Sans font, supplied photographs and artwork. Web hosting and custom-domain configuration remain separate from this source upload.
+
 ## Content update – 12 November 2026
 
 - Embedded “Kafisi Niue – introducing Seva Hifi”: https://www.youtube.com/watch?v=HJduRPhpvyc
@@ -14,6 +18,12 @@ Static artist website and industry EPK for **Pacific Psychedelic Soul Vol. 1**. 
 ## Files and hosting
 
 The homepage is `index.html`; the industry page is `epk/index.html`. Styles, scripts, imagery and the font are in `assets/`. No build or paid platform is required. Publish the repository root with GitHub Pages and configure sevahifi.com separately when ready. Content updates do not themselves enable Pages or change domain settings.
+
+## Continuing work
+
+The complete source belongs in [Sugarlicks/SevaHifi_website](https://github.com/Sugarlicks/SevaHifi_website), including the supplied photos, artwork and licensed font. Continue from the repository rather than an older ZIP or a chat attachment. The webpage is the current EPK source; the earlier draft PDF can stay as it is.
+
+The homepage and EPK have been reviewed in a desktop browser and at a 390-pixel mobile frame width. Navigation and local assets have been checked. Content remains visible without JavaScript, and the EPK navigation links back to the homepage and contact section.
 
 ## Listening access
 
