@@ -383,3 +383,18 @@ h1,h2,h3,.format-block strong,.next-single strong {
   .nav-inner { min-height:74px; }
   .footer-inner { align-items:flex-start; }
 }
+
+/* Keep the album name visible alongside the artist's logo. */
+.hero .wordmark { margin-bottom: 10px; }
+.hero-album-title {
+  font-family: "Dual Grafika", Arial, sans-serif;
+  font-variation-settings: "wght" 95;
+  font-weight: 500;
+  font-synthesis: none;
+  font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
+  font-size: clamp(1.35rem, 2.45vw, 1.9rem);
+  line-height: 1.18;
+  letter-spacing: -.01em;
+  margin: 0 0 24px;
+  max-width: 25ch;
+}
