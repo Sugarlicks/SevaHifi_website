@@ -1,10 +1,10 @@
 # Seva Hifi website
 
-Static artist website and industry EPK for **Pacific Psychedelic Soul**. The design uses Mona Sans for display type, Archivo for body copy and JetBrains Mono for small labels, with light rose, ink, a deep artwork red, teal and ochre.
+Static artist website and industry EPK for **Pacific Psychedelic Soul**. The selected logo is the 11C refined mark with an independent first I and a single F–I top connection. Dual Grafika Medium supplies unjoined headings, Dual Grafika Regular supplies short subtitles, Archivo supplies body copy, and JetBrains Mono supplies small metadata. The palette retains light rose, ink and the deep red sampled from the album painting.
 
 ## Repository source – 12 November 2026
 
-The complete build includes the HTML, CSS, JavaScript, licensed Mona Sans font, supplied photographs and artwork. Web hosting and custom-domain configuration remain separate from this source upload.
+The complete build includes the HTML, CSS, JavaScript, supplied photographs, artwork and outlined logo. The purchased Dual Grafika WOFF2 is used unmodified for the site. Web hosting and custom-domain configuration remain separate from this source upload.
 
 ## Content update – 12 November 2026
 
@@ -13,7 +13,7 @@ The complete build includes the HTML, CSS, JavaScript, licensed Mona Sans font, 
 - Revised track titles, order and durations from the supplied Seva_tracklist(3).xlsx. The digital album has **13 tracks · 53:30**. The upcoming vinyl album has **17 tracks · 70 minutes**. The displayed digital tracklist remains unchanged.
 - Original Pressures of Life 7″ vinyl: https://sevahifi.bandcamp.com/album/pressures-of-life
 - SoundCloud profile: https://soundcloud.com/sugarlicks_studio
-- Self-hosted Mona Sans variable WOFF2 with its SIL Open Font License, sourced from github/mona-sans at commit 4bc6ba8b354c36b4fb66d32cd67b4c1f2beb0a06. The font's width and weight axes supply the intended wordmark without artificial stretching.
+- The earlier Mona Sans font remains with its SIL Open Font License as a legacy asset; the current branding uses Dual Grafika and outlined SVGs.
 
 ## Files and hosting
 
@@ -54,3 +54,15 @@ The EPK is an unlisted public page with noindex/nofollow metadata and a robots.t
 ## Remaining content
 
 See CONTENT-TBC.md for the private listening link and press pack.
+
+
+
+## Selected logo and type – 13 November 2026
+
+- Restored the 11C refined logo identified in Gareth’s screenshot. H and the first I are independent; only F and the final I join at the top. SEVA’s custom curved lettering is retained.
+- The same outlined logo appears in the navigation, hero and footer on both the homepage and EPK. SVG aspect ratios remain locked.
+- Unjoined headings use Dual Grafika Medium and short subtitles use Regular. Body copy stays Archivo for reading comfort. Small metadata stays JetBrains Mono.
+- The supplied variable WOFF2 has a custom wght range of 10–180. CSS sets Regular=84 and Medium=95 explicitly; font synthesis is disabled for these elements. Use the original provided webfont, not converted desktop fonts. See FONT-NOTICE.md.
+- Album details, credits, biographies, track listing, links, photographs and video playback code are unchanged.
+
+- This branding release was reviewed in the browser on desktop and in a 390px mobile frame on both pages. No horizontal overflow was found, and the full hero photograph and cover painting retain their proportions.
