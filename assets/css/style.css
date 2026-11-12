@@ -8,15 +8,15 @@
 }
 
 :root {
-  --ink: #17232c;
-  --paper: #f4f0e7;
-  --paper-deep: #e8e5db;
-  --white: #fffdf7;
-  --indigo: #263c61;
-  --teal: #28675f;
+  --ink: #241719;
+  --paper: #eed1cf;
+  --paper-deep: #e6c6c3;
+  --white: #fff6f2;
+  --red: #92262c;
+  --teal: #225b54;
   --ochre: #d7a549;
-  --muted: #505b60;
-  --muted-on-dark: #cdd4d7;
+  --muted: #655154;
+  --muted-on-dark: #e4c6c4;
   --line: #c8cdc7;
   --max: 1180px;
 }
@@ -45,6 +45,10 @@ h1, h2, h3 {
   font-variation-settings: "wght" 780, "wdth" 108, "opsz" 72;
   line-height: 1;
   letter-spacing: -.045em;
+
+  text-transform: lowercase;
+  font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
+  font-variant-ligatures: none;
 }
 h2 { margin: 10px 0 24px; font-size: clamp(2.2rem, 4.4vw, 4rem); }
 h3 { margin: 0; }
@@ -81,8 +85,11 @@ p { margin: 0 0 18px; }
   font-family: "Mona Sans", "Arial Black", Arial, sans-serif;
   font-size: 1.04rem; font-weight: 850;
   font-variation-settings: "wght" 850, "wdth" 115;
-  letter-spacing: -.02em; text-transform: uppercase; text-decoration: none;
+  letter-spacing: -.02em; text-transform: lowercase; text-decoration: none;
   flex-shrink: 0;
+
+  font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
+  font-variant-ligatures: none;
 }
 .nav-links { display: flex; align-items: center; gap: 16px; }
 .nav-links a {
@@ -107,16 +114,18 @@ p { margin: 0 0 18px; }
 .wordmark {
   margin: 0 0 30px; font-size: clamp(4.5rem, 8vw, 7.8rem);
   font-weight: 850; font-variation-settings: "wght" 850, "wdth" 120, "opsz" 72;
-  line-height: .84; letter-spacing: -.055em; text-transform: uppercase;
+  line-height: .84; letter-spacing: -.02em; text-transform: lowercase;
+
+  font-kerning: none;
 }
 .hero-intro { max-width: 42ch; margin-bottom: 22px; font-size: clamp(1rem,1.45vw,1.17rem); }
 .hero-status {
-  max-width: 40ch; padding-left: 14px; border-left: 3px solid var(--teal);
+  max-width: 40ch; padding-left: 14px; border-left: 3px solid var(--red);
   color: var(--muted); font-size: .88rem; line-height: 1.55;
 }
 .hero-photo {
   min-width: 0; margin: 0;
-  border: 1px solid var(--ink); box-shadow: 9px 9px 0 var(--teal);
+  border: 1px solid var(--ink); box-shadow: 9px 9px 0 var(--red);
 }
 .hero-photo picture, .hero-photo img {
   display: block; width: 100%; height: auto;
@@ -169,7 +178,7 @@ p { margin: 0 0 18px; }
   gap: clamp(40px, 6vw, 88px); align-items: center;
 }
 .album-art { min-width: 0; padding: 0 14px 14px 0; }
-.album-art .frame { border: 1px solid var(--indigo); box-shadow: 14px 14px 0 var(--indigo); }
+.album-art .frame { border: 1px solid var(--red); box-shadow: 14px 14px 0 var(--red); }
 .album-art img { width: 100%; height: auto; }
 .album-copy { min-width: 0; }
 .album-copy h2 {
@@ -181,7 +190,7 @@ p { margin: 0 0 18px; }
 .album-deck { max-width: 38ch; font-size: 1.08rem; line-height: 1.5; }
 .album-description { max-width: 46ch; color: var(--muted); font-size: .98rem; }
 .album-formats { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; margin: 28px 0; }
-.format-block { border-top: 2px solid var(--indigo); padding: 16px 0 4px; }
+.format-block { border-top: 2px solid var(--red); padding: 16px 0 4px; }
 .format-block:last-child { border-color: var(--teal); }
 .format-block dt {
   margin-bottom: 10px; color: var(--muted);
@@ -190,17 +199,21 @@ p { margin: 0 0 18px; }
 }
 .format-block dd { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 12px; }
 .format-block strong {
-  color: var(--indigo); font-family: "Mona Sans", Arial, sans-serif;
+  color: var(--red); font-family: "Mona Sans", Arial, sans-serif;
   font-size: 3.15rem; font-weight: 780; line-height: 1.1;
 }
 .format-block:last-child strong { color: var(--teal); }
 .format-block span { font-size: .85rem; color: var(--muted); }
-.next-single { padding: 18px 20px; border-left: 4px solid var(--teal); background: #e1e7dd; }
-.next-single .meta { color: #344c47; font-size: .65rem; }
+.next-single { padding: 18px 20px; border-left: 4px solid var(--red); background: #e6c6c3; }
+.next-single .meta { color: #655154; font-size: .65rem; }
 .next-single strong {
   display: block; margin-top: 8px;
   font-family: "Mona Sans", Arial, sans-serif; font-size: clamp(1.3rem,2vw,1.7rem);
   font-weight: 720; line-height: 1.2; letter-spacing: -.02em;
+
+  text-transform: lowercase;
+  font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
+  font-variant-ligatures: none;
 }
 .album-credits { margin-top: 26px; font-size: .875rem; line-height: 1.65; color: var(--muted); }
 .album-credits p { margin: 0 0 5px; }
@@ -232,22 +245,22 @@ p { margin: 0 0 18px; }
 .artist-bio { max-width: 44ch; margin: 0; font-size: .95rem; line-height: 1.7; color: var(--muted); }
 
 .pitch-section {
-  position: relative; color: var(--paper); background: var(--indigo);
+  position: relative; color: var(--paper); background: var(--red);
   background-image: repeating-linear-gradient(120deg,transparent,transparent 5px,rgba(244,240,231,.014) 5px,rgba(244,240,231,.014) 6px);
 }
-.pitch-section .kicker { color: var(--ochre); }
+.pitch-section .kicker { color: var(--paper); }
 .pitch-section h2 {
   max-width: 22ch; font-size: clamp(2.6rem,5.4vw,5.2rem); line-height: 1.02;
   font-variation-settings: "wght" 780, "wdth" 108, "opsz" 72;
 }
-.pitch-copy { max-width: 58ch; color: #e0e5e7; font-size: 1.05rem; }
+.pitch-copy { max-width: 58ch; color: #f0dbd8; font-size: 1.05rem; }
 .pitch-list {
   display: grid; grid-template-columns: repeat(2,minmax(0,1fr));
   margin: 34px 0; padding: 0; list-style: none;
-  border-top: 1px solid #74839a; border-left: 1px solid #74839a;
+  border-top: 1px solid #b4777a; border-left: 1px solid #b4777a;
 }
 .pitch-list li {
-  padding: 22px 24px; border-right: 1px solid #74839a; border-bottom: 1px solid #74839a;
+  padding: 22px 24px; border-right: 1px solid #b4777a; border-bottom: 1px solid #b4777a;
   font-size: .98rem; line-height: 1.5;
 }
 .pitch-actions { gap: 14px 26px; }
@@ -263,7 +276,7 @@ p { margin: 0 0 18px; }
 .contact-links { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 4px 24px; }
 .contact-links a {
   display: flex; align-items: center; min-height: 48px; padding-block: 10px;
-  border-bottom: 1px solid #526069; font-family: "JetBrains Mono", monospace;
+  border-bottom: 1px solid #805e62; font-family: "JetBrains Mono", monospace;
   font-size: .75rem; letter-spacing: .035em; text-decoration: none;
 }
 .contact-links a:hover { color: var(--ochre); }
@@ -271,7 +284,7 @@ p { margin: 0 0 18px; }
 .site-footer { background: var(--ink); color: var(--muted-on-dark); padding-block: 24px; }
 .footer-inner {
   display: flex; justify-content: space-between; gap: 20px;
-  border-top: 1px solid #526069; padding-top: 24px;
+  border-top: 1px solid #805e62; padding-top: 24px;
   font-family: "JetBrains Mono", monospace; font-size: .66rem;
   letter-spacing: .08em; text-transform: uppercase;
 }
@@ -279,7 +292,9 @@ p { margin: 0 0 18px; }
 
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 32px; }
-  .wordmark { font-size: clamp(4rem,8.5vw,6rem); }
+  .wordmark { font-size: clamp(4rem,8.5vw,6rem); 
+  font-kerning: none;
+}
   .album-grid { gap: 36px; }
   .artist-grid { gap: 16px; }
   .artist-info { padding: 20px; }
@@ -288,7 +303,9 @@ p { margin: 0 0 18px; }
   .section-inner, .nav-inner { width: calc(100% - 40px); }
   .hero-grid, .album-grid, .watch-heading, .catalogue-release, .contact-grid { grid-template-columns: minmax(0,1fr); }
   .hero { padding-block: 38px 48px; }
-  .wordmark { font-size: clamp(4rem,16vw,6.5rem); margin-bottom: 24px; }
+  .wordmark { font-size: clamp(4rem,16vw,6.5rem); margin-bottom: 24px; 
+  font-kerning: none;
+}
   .hero-intro { max-width: 42ch; font-size: 1.05rem; }
   .hero-photo { max-width: 640px; margin-top: 8px; margin-right: 9px; }
   .watch-heading { gap: 22px; }
@@ -304,7 +321,10 @@ p { margin: 0 0 18px; }
 }
 @media (max-width: 560px) {
   .nav-inner { width: calc(100% - 32px); min-height: 66px; gap: 12px; }
-  .nav-mark { font-size: .88rem; }
+  .nav-mark { font-size: .88rem; 
+  font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
+  font-variant-ligatures: none;
+}
   .nav-links { gap: 6px; }
   .nav-links a { font-size: .66rem; padding-inline: 8px; }
   .nav-links a.nav-epk { padding-inline: 12px; }
