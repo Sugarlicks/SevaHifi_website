@@ -1,6 +1,6 @@
 # Seva Hifi website
 
-Static artist website and industry EPK for **Pacific Psychedelic Soul**. The design uses Mona Sans for display type, Archivo for body copy and JetBrains Mono for small labels, with warm off-white, ink, indigo, teal and ochre.
+Static artist website and industry EPK for **Pacific Psychedelic Soul**. The design uses Mona Sans for display type, Archivo for body copy and JetBrains Mono for small labels, with light rose, ink, a deep artwork red, teal and ochre.
 
 ## Repository source – 12 November 2026
 
@@ -23,7 +23,7 @@ The homepage is `index.html`; the industry page is `epk/index.html`. Styles, scr
 
 The complete source belongs in [Sugarlicks/SevaHifi_website](https://github.com/Sugarlicks/SevaHifi_website), including the supplied photos, artwork and licensed font. Continue from the repository rather than an older ZIP or a chat attachment. The webpage is the current EPK source; the earlier draft PDF can stay as it is.
 
-The latest layout revision has source checks for structure, links, assets, declared image sizing, colour contrast and reduced-motion rules. Browser review of this revision is still pending because the preview environment was unavailable. Content remains visible without JavaScript, and the EPK navigation links back to the homepage and contact section.
+The latest layout revision has source checks for structure, links, assets, declared image sizing, colour contrast and reduced-motion rules. Both pages have been visually reviewed in the browser on desktop and in a 390-pixel mobile frame, with no horizontal overflow. The landscape hero and album art retain their original proportions. Content remains visible without JavaScript, and the EPK navigation links back to the homepage and contact section.
 
 ## Layout revision – 12 November 2026
 
@@ -34,6 +34,12 @@ The latest layout revision has source checks for structure, links, assets, decla
 - Three equal musician cards retain the approved biographies and full roles.
 - The partnership block has a 2 × 2 list on desktop, a mobile stack, an EPK button and direct email.
 - Both pages use the agreed font pairing. The digital EPK tracklist and video playback defaults are preserved.
+
+## Typography and palette revision – 12 November 2026
+
+- Lowercase Mona Sans wordmark and display headings on both pages, with contextual alternates and ligatures disabled to keep both i dots visible.
+- Light rose `#eed1cf` is retained, with deep red `#92262c` sampled from the painting’s left-hand figure replacing the blue blocks and shadows.
+- Body copy remains Archivo; small labels remain JetBrains Mono. Approved copy, credits, imagery, track listing and video behaviour are unchanged.
 
 ## Video playback
 
