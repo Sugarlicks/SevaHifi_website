@@ -1,9 +1,8 @@
 @font-face {
-  font-family: "Mona Sans";
-  src: url("../fonts/Mona-Sans.woff2") format("woff2");
+  font-family: "Dual Grafika";
+  src: url("../fonts/DualGrafika-v01.woff2") format("woff2");
   font-style: normal;
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
+  font-weight: 100 900;
   font-display: swap;
 }
 
@@ -40,11 +39,11 @@ a:focus-visible, button:focus-visible {
   outline-offset: 5px;
 }
 h1, h2, h3 {
-  font-family: "Mona Sans", "Arial Black", Arial, sans-serif;
-  font-weight: 780;
-  font-variation-settings: "wght" 780, "wdth" 108, "opsz" 72;
+  font-family: "Dual Grafika", Arial, sans-serif;
+  font-weight: 500;
+  font-variation-settings: "wght" 95;
   line-height: 1;
-  letter-spacing: -.045em;
+  letter-spacing: -.015em;
 
   text-transform: lowercase;
   font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
@@ -82,9 +81,9 @@ p { margin: 0 0 18px; }
   justify-content: space-between; gap: 24px;
 }
 .nav-mark {
-  font-family: "Mona Sans", "Arial Black", Arial, sans-serif;
-  font-size: 1.04rem; font-weight: 850;
-  font-variation-settings: "wght" 850, "wdth" 115;
+  font-family: "Dual Grafika", Arial, sans-serif;
+  font-size: 1.04rem; font-weight: 500;
+  font-variation-settings: "wght" 95;
   letter-spacing: -.02em; text-transform: lowercase; text-decoration: none;
   flex-shrink: 0;
 
@@ -113,7 +112,7 @@ p { margin: 0 0 18px; }
 .hero .eyebrow { max-width: 48ch; margin-bottom: 24px; }
 .wordmark {
   margin: 0 0 30px; font-size: clamp(4.5rem, 8vw, 7.8rem);
-  font-weight: 850; font-variation-settings: "wght" 850, "wdth" 120, "opsz" 72;
+  font-weight: 500; font-variation-settings: "wght" 95;
   line-height: .84; letter-spacing: -.02em; text-transform: lowercase;
 
   font-kerning: none;
@@ -162,7 +161,7 @@ p { margin: 0 0 18px; }
 }
 .catalogue-release h3 {
   max-width: 30ch; font-size: clamp(1.3rem,2.1vw,1.7rem);
-  line-height: 1.15; font-variation-settings: "wght" 720, "wdth" 100;
+  line-height: 1.15; font-variation-settings: "wght" 95;
 }
 .track-list { list-style: none; padding: 0; margin: 16px 0 0; }
 .track-list li {
@@ -184,7 +183,7 @@ p { margin: 0 0 18px; }
 .album-copy h2 {
   max-width: 13ch; margin: 12px 0 22px;
   font-size: clamp(2.4rem,4.6vw,4.7rem);
-  font-variation-settings: "wght" 780, "wdth" 100, "opsz" 72;
+  font-variation-settings: "wght" 95;
   line-height: .98;
 }
 .album-deck { max-width: 38ch; font-size: 1.08rem; line-height: 1.5; }
@@ -199,8 +198,8 @@ p { margin: 0 0 18px; }
 }
 .format-block dd { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 12px; }
 .format-block strong {
-  color: var(--red); font-family: "Mona Sans", Arial, sans-serif;
-  font-size: 3.15rem; font-weight: 780; line-height: 1.1;
+  color: var(--red); font-family: "Dual Grafika", Arial, sans-serif;
+  font-size: 3.15rem; font-weight: 500; line-height: 1.1;
 }
 .format-block:last-child strong { color: var(--teal); }
 .format-block span { font-size: .85rem; color: var(--muted); }
@@ -208,8 +207,8 @@ p { margin: 0 0 18px; }
 .next-single .meta { color: #655154; font-size: .65rem; }
 .next-single strong {
   display: block; margin-top: 8px;
-  font-family: "Mona Sans", Arial, sans-serif; font-size: clamp(1.3rem,2vw,1.7rem);
-  font-weight: 720; line-height: 1.2; letter-spacing: -.02em;
+  font-family: "Dual Grafika", Arial, sans-serif; font-size: clamp(1.3rem,2vw,1.7rem);
+  font-weight: 500; line-height: 1.2; letter-spacing: -.02em;
 
   text-transform: lowercase;
   font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
@@ -234,7 +233,7 @@ p { margin: 0 0 18px; }
 .artist-info { padding: 24px; }
 .artist-info h3 {
   margin-bottom: 12px; font-size: 2rem;
-  font-variation-settings: "wght" 780, "wdth" 105;
+  font-variation-settings: "wght" 95;
 }
 .artist-role {
   color: var(--teal); font-family: "JetBrains Mono", monospace;
@@ -251,7 +250,7 @@ p { margin: 0 0 18px; }
 .pitch-section .kicker { color: var(--paper); }
 .pitch-section h2 {
   max-width: 22ch; font-size: clamp(2.6rem,5.4vw,5.2rem); line-height: 1.02;
-  font-variation-settings: "wght" 780, "wdth" 108, "opsz" 72;
+  font-variation-settings: "wght" 95;
 }
 .pitch-copy { max-width: 58ch; color: #f0dbd8; font-size: 1.05rem; }
 .pitch-list {
@@ -348,4 +347,39 @@ p { margin: 0 0 18px; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+
+/* The purchased variable font uses wght 10–180: Regular 84, Medium 95. */
+h1,h2,h3,.format-block strong,.next-single strong {
+  font-variation-settings: "wght" 95;
+  font-synthesis: none;
+  font-feature-settings: "ss05" 0,"liga" 0,"clig" 0,"calt" 0;
+  letter-spacing: -.015em;
+  line-height: 1.1;
+}
+.eyebrow,.kicker,.meta,.hero-intro,.album-deck {
+  font-family: "Dual Grafika",Arial,sans-serif;
+  font-variation-settings: "wght" 84;
+  font-weight: 400;
+  font-synthesis: none;
+  font-feature-settings: "ss05" 0,"liga" 0,"clig" 0,"calt" 0;
+}
+.hero-intro { line-height:1.55; }
+.nav-mark { display:inline-flex; align-items:center; min-height:64px; }
+.nav-mark img { width:64px; height:auto; }
+.wordmark { margin:0 0 22px; line-height:1; }
+.hero-logo { width:clamp(220px,23vw,300px); height:auto; }
+.footer-inner { align-items:center; }
+.footer-brand { display:inline-flex; align-items:center; min-height:64px; }
+.footer-brand img { width:64px; height:auto; }
+@media(max-width:800px) {
+  .hero-logo { width:200px; }
+  .hero .eyebrow { margin-bottom:18px; }
+  .hero-actions { margin-top:22px; }
+}
+@media(max-width:560px) {
+  .hero-logo { width:180px; }
+  .nav-inner { min-height:74px; }
+  .footer-inner { align-items:flex-start; }
 }
