@@ -1,6 +1,6 @@
 # Seva Hifi website
 
-Static artist website and industry EPK for **Pacific Psychedelic Soul**. The existing blush, rust, mustard, cream and dark layout is preserved, including Baz, Gmuva and Levani in that order with their supplied photographs.
+Static artist website and industry EPK for **Pacific Psychedelic Soul**. The design uses Mona Sans for display type, Archivo for body copy and JetBrains Mono for small labels, with warm off-white, ink, indigo, teal and ochre.
 
 ## Repository source – 12 November 2026
 
@@ -23,7 +23,17 @@ The homepage is `index.html`; the industry page is `epk/index.html`. Styles, scr
 
 The complete source belongs in [Sugarlicks/SevaHifi_website](https://github.com/Sugarlicks/SevaHifi_website), including the supplied photos, artwork and licensed font. Continue from the repository rather than an older ZIP or a chat attachment. The webpage is the current EPK source; the earlier draft PDF can stay as it is.
 
-The homepage and EPK have been reviewed in a desktop browser and at a 390-pixel mobile frame width. Navigation and local assets have been checked. Content remains visible without JavaScript, and the EPK navigation links back to the homepage and contact section.
+The latest layout revision has source checks for structure, links, assets, declared image sizing, colour contrast and reduced-motion rules. Browser review of this revision is still pending because the preview environment was unavailable. Content remains visible without JavaScript, and the EPK navigation links back to the homepage and contact section.
+
+## Layout revision – 12 November 2026
+
+- Split hero with a primary Industry EPK button and a secondary Listen anchor.
+- Baz's full 640 × 359 landscape image is rendered at width 100% and height auto; the hero has no fixed image height or crop.
+- Video follows the hero, with the original 7″ identified as an earlier release.
+- The album pairs the full cover painting with digital and vinyl format blocks and three separate credit lines.
+- Three equal musician cards retain the approved biographies and full roles.
+- The partnership block has a 2 × 2 list on desktop, a mobile stack, an EPK button and direct email.
+- Both pages use the agreed font pairing. The digital EPK tracklist and video playback defaults are preserved.
 
 ## Video playback
 
