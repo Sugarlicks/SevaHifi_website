@@ -66,3 +66,13 @@ See CONTENT-TBC.md for the private listening link and press pack.
 - Album details, credits, biographies, track listing, links, photographs and video playback code are unchanged.
 
 - This branding release was reviewed in the browser on desktop and in a 390px mobile frame on both pages. No horizontal overflow was found, and the full hero photograph and cover painting retain their proportions.
+
+
+## January 2027 outreach assets
+
+- The homepage names Pacific Psychedelic Soul directly beneath the main artist logo.
+- The selected logo supplies the SVG favicon, ICO fallback and Apple touch icon on both pages.
+- Both visible footers use the fixed year 2027. The homepage footer does not use the automatic current-year hook.
+- The EPK navigation offers a direct download of epk/downloads/seva-hifi-epk-2027.pdf; the homepage contact links also include the PDF.
+- The six-page PDF retains selectable text, embedded fonts, vector logos, photographs, album facts, the 13-track digital listing, biographies, credits and 24 clickable links. Photographs retain their aspect ratios and full frames.
+- Desktop and 390px mobile layouts were reviewed without horizontal overflow. PDF pages were rendered and inspected, and text, track counts and links were verified.
