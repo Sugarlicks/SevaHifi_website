@@ -74,5 +74,15 @@ See CONTENT-TBC.md for the private listening link and press pack.
 - The selected logo supplies the SVG favicon, ICO fallback and Apple touch icon on both pages.
 - Both visible footers use the fixed year 2027. The homepage footer does not use the automatic current-year hook.
 - The EPK navigation offers a direct download of epk/downloads/seva-hifi-epk-2027.pdf; the homepage contact links also include the PDF.
-- The six-page PDF retains selectable text, embedded fonts, vector logos, photographs, album facts, the 13-track digital listing, biographies, credits and 24 clickable links. Photographs retain their aspect ratios and full frames.
+- The six-page PDF retains selectable text, embedded fonts, vector logos, photographs, album facts, the 13-track digital listing, biographies, credits and 25 clickable links. Photographs retain their aspect ratios and full frames.
 - Desktop and 390px mobile layouts were reviewed without horizontal overflow. PDF pages were rendered and inspected, and text, track counts and links were verified.
+
+
+## Biographies and link behaviour – 14 November 2026
+
+- Replaced Baz’s biography with the supplied Niuean/Samoan text; removed the Gareth Farry alias from Gmuva’s biography.
+- Added congas to Levani’s role and core credits.
+- Industry EPK and email links on the homepage use new tabs. Every online EPK link uses a new tab with `rel="noopener"`; the PDF control retains its download behaviour.
+- Added Sugarlicks on YouTube beneath the SoundCloud link on both pages and in the PDF listening section.
+- Regenerated the six-page PDF, checked its changed pages visually and verified the revised text and 25 link annotations. The photographs retain their full frames without white panels.
+- Verified the EPK opens separately from the homepage and checked the link targets on both pages. The broader FORGE audit remains paused at Gareth’s request.
