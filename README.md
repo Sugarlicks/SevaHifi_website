@@ -86,3 +86,11 @@ See CONTENT-TBC.md for the private listening link and press pack.
 - Added Sugarlicks on YouTube beneath the SoundCloud link on both pages and in the PDF listening section.
 - Regenerated the six-page PDF, checked its changed pages visually and verified the revised text and 25 link annotations. The photographs retain their full frames without white panels.
 - Verified the EPK opens separately from the homepage and checked the link targets on both pages. The broader FORGE audit remains paused at Gareth’s request.
+
+
+## Album copy and guest credits – 23 November 2026
+
+- Added the eight guest musicians and their instruments after the trio profiles on the homepage, online EPK and six-page PDF.
+- Added the blues to the homepage introduction and applied the supplied EPK album description, including the upcoming vinyl double album and sea of islands wording.
+- Updated the PDF download URLs and stylesheet version so returning visitors receive the revised assets.
+- Reviewed both pages on desktop and at 390px width without horizontal overflow. Rendered and inspected the revised PDF pages, verified the complete copy and preserved all 25 link annotations.
