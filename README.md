@@ -90,7 +90,7 @@ See CONTENT-TBC.md for the private listening link and press pack.
 
 ## Album copy and guest credits – 23 November 2026
 
-- Added the eight guest musicians and their instruments after the trio profiles on the homepage, online EPK and six-page PDF.
+- Added the nine guest musicians and their instruments, including Manuel Bundy on turntables, after the trio profiles on the homepage, online EPK and six-page PDF.
 - Added the blues to the homepage introduction and applied the supplied EPK album description, including the upcoming vinyl double album and sea of islands wording.
 - Updated the PDF download URLs and stylesheet version so returning visitors receive the revised assets.
 - Reviewed both pages on desktop and at 390px width without horizontal overflow. Rendered and inspected the revised PDF pages, verified the complete copy and preserved all 25 link annotations.
